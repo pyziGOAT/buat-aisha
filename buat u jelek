@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Maaf untuk aisha</title>
+    <style>
+        body {
+            background: linear-gradient(135deg, #f8cdda, #1d2b64);
+            font-family: 'Poppins', sans-serif;
+            color: #fff;
+            text-align: center;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            overflow: hidden;
+        }
+
+        h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            animation: fadeInDown 1.5s ease;
+        }
+
+        p {
+            font-size: 1.3em;
+            max-width: 600px;
+            line-height: 1.6;
+            margin-bottom: 30px;
+            animation: fadeIn 2s ease;
+        }
+
+        button {
+            background-color: #fff;
+            color: #1d2b64;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 25px;
+            font-size: 1.1em;
+            cursor: pointer;
+            transition: 0.3s ease;
+        }
+
+        button:hover {
+            background-color: #f8cdda;
+            color: #fff;
+            transform: scale(1.05);
+        }
+
+        @keyframes fadeInDown {
+            from {
+                opacity: 0;
+                transform: translateY(-50px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+
+        /* Animasi hati */
+        .hearts {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden;
+            z-index: -1;
+        }
+
+        .hearts span {
+            position: absolute;
+            display: block;
+            color: #ff7eb9;
+            font-size: 24px;
+            animation: fall 6s linear infinite;
+        }
+
+        @keyframes fall {
+            0% {
+                transform: translateY(-10%);
+                opacity: 1;
+            }
+            100% {
+                transform: translateY(110vh);
+                opacity: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="hearts">
+        <span style="left:10%">❤</span>
+        <span style="left:30%; animation-delay:1s;">❤</span>
+        <span style="left:50%; animation-delay:2s;">❤</span>
+        <span style="left:70%; animation-delay:3s;">❤</span>
+        <span style="left:90%; animation-delay:4s;">❤</span>
+    </div>
+
+    <h1>HAIII AISS CANTIK </h1>
+    <p>
+        maafinn aku yaa ais, jangan ngembek mulu nanti kamu cepet tua, nanti kamu ga imut lagi
+    </p>
+    <button onclick="alert('makasii imut luv u 💕')">maafin dilva yaa?</button>
+</body>
+</html>
